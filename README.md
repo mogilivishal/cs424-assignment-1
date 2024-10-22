@@ -80,7 +80,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 1. #### Heatmap of Congestion by Hour and Day:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/2a3b6564-ed37-4d48-afd8-9bfdf4fec746)
+![image](https://github.com/mogilivishal/cs424-assignment-1/assets/115042657/2a3b6564-ed37-4d48-afd8-9bfdf4fec746)
 
    - Description: Created a heatmap with the x-axis representing days of the week (attribute: `DAY_OF_WEEK`) and the y-axis showing hours of the day (attribute: `HOUR`). Color intensity can indicate congestion levels (attribute: `SPEED`).
    - Main Idea: This heatmap's main idea is to visualize congestion patterns by representing congestion levels at different hours of the day and days of the week.
