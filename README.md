@@ -80,7 +80,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 1. #### Heatmap of Congestion by Hour and Day:
 
-![image](https://github.com/mogilivishal/cs424-assignment-1/assets/115042657/2a3b6564-ed37-4d48-afd8-9bfdf4fec746)
+![heatmap](https://github.com/user-attachments/assets/0c3d0a5a-d176-457b-8c31-b26af14a80c2)
 
    - Description: Created a heatmap with the x-axis representing days of the week (attribute: `DAY_OF_WEEK`) and the y-axis showing hours of the day (attribute: `HOUR`). Color intensity can indicate congestion levels (attribute: `SPEED`).
    - Main Idea: This heatmap's main idea is to visualize congestion patterns by representing congestion levels at different hours of the day and days of the week.
@@ -91,7 +91,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 2. #### Weekly Average Congestion Line Chart:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/cdeb9d68-274d-404b-8733-b20427f5948b)
+![linechart](https://github.com/user-attachments/assets/0b4cc935-b8f6-4532-b78c-9154a8ee15dc)
 
    - Description: Generated a line chart with the x-axis displaying days of the week and the y-axis representing the average congestion level (attribute: `SPEED`). This chart provides insights into the weekly traffic patterns.
    - Main Idea: This line chart's main idea is to simplify data to showcase the average congestion levels on each day of the week, helping users understand weekly traffic patterns.
@@ -104,7 +104,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 3. #### Choropleth Map of Congestion by Street:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/f4298247-06a8-4030-9a7e-45dc92e658a8)
+![choropleth](https://github.com/user-attachments/assets/835a28e2-10c3-4dd2-8c7b-bdf9fe70ffe9)
 
    - Description: Developed a choropleth map of Chicago streets (attribute: `STREET`) with color-coded segments based on their average congestion levels (attribute: `SPEED`). Lighter colors represent higher congestion.
    - Main Idea: The main idea is to create a choropleth map that highlights streets with the highest average congestion levels, making it easy to identify highly congested areas.
@@ -115,7 +115,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 4. #### Bar Chart :
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/1a97e2b9-4812-40d1-bdb0-8bff9cfda88e)
+![barchart](https://github.com/user-attachments/assets/0290cdb3-7fde-4277-8e27-ec699e7896dc)
 
    - Description: Created a bar chart where the x-axis represents street (STREET) and y-axis represents speed (SPEED). This chart tells us the speed or congestion levels in particular streets.
    - Main Idea: The main idea is to create a bar chart that directly lists streets on the x-axis and their corresponding congestion levels on the y-axis.
@@ -128,7 +128,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 5. #### Time Series Plot:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/438470f1-5084-4ce0-9ccb-cb015c6fea2a)
+![timeseriesplot](https://github.com/user-attachments/assets/756c8f28-da1b-48db-a2df-f1b0a0dd6107)
 
    - Description: Generated a time series plot with the number of buses on the y-axis and the hour of day on the x-axis and color representing the direction. This tells us how many buses (BUS_COUNT) are there in the street during which part of the day (HOUR).
    - Main Idea: The main idea is to generate a time series plot that shows the relationship between the number of buses and the hour of the day, highlighting bus count patterns.
@@ -139,7 +139,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 6. #### Hexbin Plot:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/b4902fab-57fa-4866-a97c-f429b923e6e7)
+![hexbinplot](https://github.com/user-attachments/assets/8900460f-e72b-4b8f-b2e7-c4918950c32c)
 
    - Description: Created a hexbin plot to visualize the relationship between bus count (x-axis) and congestion level (y-axis) with size of hexagon representing segment length. This plot groups data points into hexagonal bins, allowing you to see the density of points and any patterns more clearly.
    - Main Idea: The main idea is to create a hexbin plot that groups data points into hexagonal bins to visualize the density and patterns between bus count and congestion level.
@@ -150,7 +150,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 7. #### Bubble Chart of Bus Count, Congestion, and Segment Length:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/21397787-6d5f-43fd-a95a-1d0108cbd2ce)
+![bubblechart](https://github.com/user-attachments/assets/bd9d3f5f-1034-45c1-acd6-0a26bc0fd096)
 
    - Description: Created a bubble chart with bus count (x-axis), congestion level (y-axis), and segment length (bubble size). This visualizes the relationships among bus count, congestion, and segment length.
    - Main Idea: The main idea is to create a bubble chart that visualizes relationships among bus count, congestion level, and segment length.
@@ -163,7 +163,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 8. #### Box Plot of Monthly Congestion:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/09d098e4-3320-441c-9a45-f9c4c96c9a2c)
+![boxplot](https://github.com/user-attachments/assets/9ed48d90-1681-4a84-86a8-6411cb32d8e2)
 
    - Descrition: Generated a set of box plots, one for each month (attribute: `MONTH`), showing the distribution of congestion levels (attribute: `SPEED`). This helps reveal seasonal variations.
    - Main Idea: The main idea is to generate a set of box plots, one for each month, showing the distribution of congestion levels to reveal seasonal variations.
@@ -174,7 +174,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 9. #### Seasonal Congestion Stacked Area Chart:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/fd80b51c-8c9f-4e75-9277-d5765961fbea)
+![stackedareachart](https://github.com/user-attachments/assets/79728dec-e4a3-4403-a72d-4749c21a70dc)
 
    - Description: Created a stacked area chart with time on the x-axis and congestion levels on the y-axis, using different colors to represent different months. This visualizes how congestion varies seasonally.
    - Main Idea: The main idea is to create a stacked area chart with time on the x-axis and congestion levels on the y-axis, using different colors to represent different months, visualizing seasonal congestion variations.
@@ -187,7 +187,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 10. #### Bar Chart of Top Congested Segments:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/37a8a066-f60f-4532-bc2f-6c5f57f44936)
+![barcharthorizontal](https://github.com/user-attachments/assets/b89e8b82-6f48-4062-b78b-cdf91ddb90e9)
 
    - Description: Created a bar chart listing segments (attribute: `SEGMENT_ID`) with the highest average congestion levels (attribute: `SPEED`). This identifies consistently congested segments.
    - Main Idea: This bar chart's main idea is to list the top consistently congested segments (SEGMENT_ID) based on their average congestion levels (SPEED).
@@ -198,7 +198,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 11. #### Bubble Chart:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/8678390f-9353-4709-bd03-627012ca948c)
+![bubblechart1](https://github.com/user-attachments/assets/1897a478-f9aa-43a0-a47a-a6735a0a4b14)
 
    - Description: Created a bubble chart where the bubble refers to segment id (SEGMENT_ID) and size of bubble signifies the speed in that particular segment.
    - Main Idea: The main idea is to create a bubble chart where each bubble represents a segment (SEGMENT_ID), and the size of the bubble signifies the congestion speed in that particular segment.
@@ -209,7 +209,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 12. #### Radar Chart for Top Congested Segments:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/bb8efbf2-c04e-4b82-8972-ecad0a7ea019)
+![radarchart](https://github.com/user-attachments/assets/8776bd62-4f44-45ec-8a3d-9f76983e9852)
 
    - Description: Created a radar chart (also known as a spider chart) that displays congestion levels (attribute: SPEED) over time for the top five consistently congested segments (attribute: SEGMENT_ID). Each segment is represented by a separate radar chart, and the axes represent different time points. This visualization allows you to compare congestion patterns among the most congested segments over time.
    - Main Idea: This radar chart (spider chart) displays congestion levels (SPEED) over time for the top five consistently congested segments (SEGMENT_ID). Each segment has a separate radar chart, and the axes represent different time points.
@@ -222,7 +222,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 13. #### Violin Plot:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/6586b4f3-3ae9-47dd-bafd-406e210f64b1)
+![violinplot](https://github.com/user-attachments/assets/175911e8-c8fc-46ae-be9a-eafbfa9f1351)
 
    - Description: Created a violin plot that combines a box plot and a kernel density estimation, providing a richer view of the distribution of congestion levels (attribute: SPEED) within different segment length ranges (attribute: LENGTH).
    - Main Idea: The main idea is to create a violin plot that combines a box plot and a kernel density estimation to provide a richer view of the distribution of congestion levels (SPEED) within different segment length ranges (LENGTH).
@@ -233,7 +233,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 14. #### Scatter Plot:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/f6aa6c4d-5c01-40af-8a2f-8a60f563b46a)
+![scatterplot](https://github.com/user-attachments/assets/8311517a-c06f-44ef-8537-7fd4fe6f12c8)
 
    - Description: Created a scatter plot that has length on x-axis and speed on y-axis. This displays the distribution of congestion levels (attribute: `SPEED`) within each range (attribute: `LENGTH`).
    - Main Idea: The main idea is to create a scatter plot with length on the x-axis and speed on the y-axis, displaying the distribution of congestion levels (SPEED) within each range (LENGTH).
@@ -244,7 +244,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 15. #### Parallel Coordinates Plot:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/a2206371-9ae4-4824-a36b-f6a0fb7be3cb)
+![parallelcoordinatesplot](https://github.com/user-attachments/assets/0e569983-054e-4229-9620-c299d15da4e6)
 
    - Description: Used a parallel coordinates plot with segment length (attribute: `LENGTH`) on one axis and congestion level (attribute: `SPEED`) on another. Connect lines to visualize how congestion levels change with different segment lengths.
    - Main Idea: The main idea is to use a parallel coordinates plot with segment length (LENGTH) on one axis and congestion level (SPEED) on another. Connecting lines help visualize how congestion levels change with different segment lengths.
@@ -257,7 +257,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 16. #### Density Map:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/25cb0e7d-f34c-4a95-85ad-7c306c5b91ef)
+![densitymap](https://github.com/user-attachments/assets/eddefaad-292a-4fe9-889c-d9490e562d76)
 
    - Description: Developed a map that tells us before and after COVID-19 which streets (STREET) have experienced congestion (SPEED) and which have not.
    - Main Idea: The main idea is to create a density map illustrating changes in congestion before and after COVID-19. It highlights streets (STREET) that experienced congestion (SPEED) and those that did not.
@@ -268,7 +268,7 @@ The Chicago Traffic Tracker dataset is a comprehensive collection of historical 
 
 17. #### Grouped Bar Chart:
 
-![image](https://github.com/uic-cs424/assignment-1-chicagobulls/assets/115042657/5f67269d-473b-4e85-9a85-d5d649e98222)
+![groupedbarchart](https://github.com/user-attachments/assets/0d09dc1f-da5b-4342-a07c-c3428e88a09b)
 
    - Description: Created a grouped bar chart the first bar represents bus count (BUS_COUNT) and second bar represents the speed (SPEED). This chart tells us the speed and number of buses in a particular month (MONTH).
    - Main Idea: The main idea is to create a grouped bar chart comparing bus count (BUS_COUNT) and speed (SPEED) before and after COVID-19. It provides insights into pandemic-related traffic changes on a monthly basis (MONTH).
